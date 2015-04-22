@@ -89,7 +89,7 @@ body > .header {
 
 /* Content */
 .content {
-  padding: 30px 15px;
+  padding: 50px 15px;
   background: #f0f3f4;
   overflow: auto;
 }
@@ -484,6 +484,9 @@ p.uppercase {
 .color-blue{
   color: blue;
 
+}
+.color-white{
+  color: white;
 }
 
 .panel

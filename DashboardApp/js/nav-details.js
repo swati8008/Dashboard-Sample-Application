@@ -38,9 +38,9 @@ function generateList(data) {
 }
 
 var data = [
-    {'id': 1, 'parentId': 0, 'name': 'Campaigns', url:'../Campaigns/index.html' },
-    {'id': 1, 'parentId': 0, 'name': 'Accounts', url:'../Accounts/index.html' },
-    {'id': 2, 'parentId': 0, 'name': 'Users', url:'../Users/index.html'},
-    {'id': 3, 'parentId': 0, 'name': 'Downloads',url:'../Downloads/index.html' },
-    {'id': 4, 'parentId': 0, 'name': 'Sales', url:'../Sales/index.html'}
+    {'id': 1, 'parentId': 0, 'name': 'Campaigns', url:'#' },
+    {'id': 1, 'parentId': 0, 'name': 'Accounts', url:'#' },
+    {'id': 2, 'parentId': 0, 'name': 'Users', url:'#'},
+    {'id': 3, 'parentId': 0, 'name': 'Downloads',url:'#' },
+    {'id': 4, 'parentId': 0, 'name': 'Sales', url:'#'}
     ];

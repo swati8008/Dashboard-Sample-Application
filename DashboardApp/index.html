@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html style="height: 980px;">
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <title>Dashboard</title>
-    <meta name="keywords" content="Admin, Bootstrap 3, Template, Theme, Responsive">
+    <meta name="keywords" content="Admin, Responsive">
       <!-- bootstrap 3.0.2 -->
       <!-- Bootstrap -->
-    <script type="text/javascript" src="../../js/autoBreadcrumbs.js"></script>
-    <script type="text/javascript" src="../../js/nav-details.js"></script>
-    <script type="text/javascript" src="../../js/table-details.js"></script>
-    <link href="../../css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/autoBreadcrumbs.js"></script>
+    <script type="text/javascript" src="js/nav-details.js"></script>
+    <script type="text/javascript" src="js/table-details.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="skin-black">
-  <header class="header"> new page</header>
-        <div class="wrapper row-offcanvas-left" style="height: 612px;">
+  <header class="header">  </header>
+        <div class="wrapper row-offcanvas-left">
                     <!-- Left side column. contains the logo and sidebar -->
                     <aside class="left-side">
                         <!-- sidebar: style can be found in sidebar.less -->
@@ -30,12 +30,12 @@
                                     </span>
                                 </div>
                             </form>
-                           <div style=" color: white;"> DASHBOARDS </div>
+                           <div class="color-white"> DASHBOARDS </div>
                         </section>
                         <!-- /.sidebar -->
                     </aside>
 
-                    <aside class="right-side" style="height: 612px;">
+                    <aside class="right-side">
 
                 <!-- Main content -->
                       <section class="content">
@@ -46,10 +46,6 @@
                       <!--breadcrumbs start -->
                       <!--breadcrumbs end -->
                            </div>
-                        </div>
-                          <!-- Main row -->
-                        <div class="row">
-
                         </div>
                          <div class="row">
                             <div class="col-md-12">
@@ -68,9 +64,9 @@
 
           </div><!-- ./wrapper -->
     <script type="text/javascript">
-                        buildTable();
-                        generateList(data);
-                        breadcrumbs();
+                        buildTable();  /*this function build the conatent table */
+                        generateList(data); /* this function generates side menu list*/
+                        breadcrumbs(); /* this function created the breadcrumb */
     </script>
 </body>
 </html>
