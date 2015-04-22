@@ -2,6 +2,7 @@ function generateList(data) {
     var i, item, ref = {}, counts = {};
     function ul() {
         var newul = document.createElement('ul');  
+         newul.setAttribute('id', 'ulmenu');
          newul.setAttribute('class', 'sidebar-menu');
         return newul;
     }
@@ -27,6 +28,7 @@ function generateList(data) {
         counts[data[i].id] = 0;
         counts[data[i].parentId] += 1;
     }
+
     for (i in counts) // for every <ul>
         if (counts[i] === 0) // if it never had anything appened to it
             ref[i].parentNode.removeChild(ref[i]); // remove it

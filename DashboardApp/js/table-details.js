@@ -33,8 +33,7 @@ function buildTable()
     main.appendChild(tabobj);
 }
 
-var CampaignsList =  [          {
-                                      ID : 1,
+var CampaignsList =  [           {
                                       Name : "Campaign Name",
                                       DateCreated : "12 DEC 2015",
                                       LastUpdated : "12 DEC 2015",
@@ -44,7 +43,6 @@ var CampaignsList =  [          {
                                   },
 
                                   {
-                                      ID : 2,
                                       Name : "Campaign Name",
                                       DateCreated : "12 DEC 2015",
                                       LastUpdated : "12 DEC 2015",
@@ -54,7 +52,7 @@ var CampaignsList =  [          {
                                   },
 
                                   {
-                                      ID : 3,
+                                      
                                       Name : "Campaign Name",
                                       DateCreated : "12 DEC 2015",
                                       LastUpdated : "12 DEC 2015",
@@ -64,7 +62,7 @@ var CampaignsList =  [          {
                                   },
 
                                    {
-                                      ID : 4,
+                                      
                                       Name : "Campaign Name",
                                       DateCreated : "12 DEC 2015",
                                       LastUpdated : "12 DEC 2015",
@@ -74,7 +72,6 @@ var CampaignsList =  [          {
                                   },
 
                                   {
-                                      ID : 5,
                                       Name : "Campaign Name",
                                       DateCreated : "12 DEC 2015",
                                       LastUpdated : "12 DEC 2015",
@@ -84,7 +81,6 @@ var CampaignsList =  [          {
                                   },
 
                                   {
-                                      ID : 6,
                                       Name : "Campaign Name",
                                       DateCreated : "12 DEC 2015",
                                       LastUpdated : "12 DEC 2015",
@@ -94,7 +90,6 @@ var CampaignsList =  [          {
                                   },
 
                                    {
-                                      ID : 7,
                                       Name : "Campaign Name",
                                       DateCreated : "12 DEC 2015",
                                       LastUpdated : "12 DEC 2015",
@@ -104,7 +99,6 @@ var CampaignsList =  [          {
                                   },
 
                                   {
-                                      ID : 8,
                                       Name : "Campaign Name",
                                       DateCreated : "12 DEC 2015",
                                       LastUpdated : "12 DEC 2015",
@@ -114,7 +108,6 @@ var CampaignsList =  [          {
                                   },
 
                                   {
-                                      ID : 9,
                                       Name : "Campaign Name",
                                       DateCreated : "12 DEC 2015",
                                       LastUpdated : "12 DEC 2015",
@@ -123,7 +116,6 @@ var CampaignsList =  [          {
                                       EndDate:"12 DEC 2015"
                                   },
                                   {
-                                      ID : 10,
                                       Name : "Campaign Name",
                                       DateCreated : "12 DEC 2015",
                                       LastUpdated : "12 DEC 2015",
@@ -133,7 +125,6 @@ var CampaignsList =  [          {
                                   },
 
                                    {
-                                      ID : 11,
                                       Name : "Campaign Name",
                                       DateCreated : "12 DEC 2015",
                                       LastUpdated : "12 DEC 2015",
