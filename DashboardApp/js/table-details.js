@@ -29,6 +29,13 @@ function buildTable()
          }
         tbody.appendChild(row);
     }
+    row = document.createElement("tr");
+    row.className='blank_row';
+    row.setAttribute("id", "tr" + CampaignsList.length);
+    td = document.createElement("td");
+    td.colSpan="6";
+    row.appendChild(td);
+    tbody.appendChild(row);
     main=document.getElementById('divTable');
     main.appendChild(tabobj);
 }
