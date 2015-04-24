@@ -436,7 +436,8 @@ p.uppercase {
 }
 
 .color-blue{
-  color: blue;
+  color: #13a0f8;
+  font-style: bold;
 
 }
 .color-white{
