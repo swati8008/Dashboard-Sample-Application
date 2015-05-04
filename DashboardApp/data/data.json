@@ -1,4 +1,4 @@
-[{
+data = '[{
   "Name" : "Campaign Name",
   "DateCreated" : "12 DEC 2015",
   "LastUpdated" : "12 DEC 2015",
@@ -95,4 +95,4 @@
       "TotalViews" :"5 K",
       "Sales":"1000 Units",
       "EndDate":"12 DEC 2015"
-  },]
+  },]';

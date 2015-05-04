@@ -1,10 +1,10 @@
 function breadcrumbs(e) {
   var final =  setActive(e);
   var title ="DashBoard"
-  var output = "<div class='breadcrumb'><a href=#/>"+ title.toUpperCase()+"</a> » ";
+  var output = "<div class='breadcrumb'><a href=#/>"+ title.toUpperCase()+"</a> <span class='chevron right'>    </span";
   var dc=document.getElementById('bcrumbs');
   dc.innerHTML="";
-  output = output+ "<span>" + final +  "</span></div>"
+  output = output+ "<span class='page'>" + final +  "</span></div>"
   var newo = document.createElement('div');
   newo.innerHTML=output;
   dc.appendChild(newo);

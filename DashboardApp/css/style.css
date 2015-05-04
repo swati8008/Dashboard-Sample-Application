@@ -127,9 +127,13 @@ border-spacing:0;
 }
 
 .table thead th {
+    font-weight: normal;
     padding-bottom: 2em;
 } 
 
+.table thead {
+  text-shadow: 0px 3px 5px rgba(150, 150, 150, 1);
+}
 .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
   padding: 0.65em;
    border-bottom : 1px solid #959595;
@@ -161,6 +165,8 @@ body > .header {
 
 .breadcrumb {
   background-color: #fff;
+  text-shadow: 0px 1px 3px rgba(150, 150, 150, 1);
+  font-weight: bold;
 }
 .breadcrumb:after
 {
@@ -175,9 +181,31 @@ body > .header {
 
 .breadcrumb a {
   color: #13a0f8;
+   text-decoration:none; 
 }
 .breadcrumb span {
   color: #d83c3c;
+}
+.chevron::before {
+  border-style: solid;
+  border-width: 0.25em 0.25em 0 0;
+  border-color: #b4b4b4;
+  content: '';
+  display: inline-block;
+  height: 0.45em;
+  left: 0.15em;
+  position: relative;
+  top: 0.15em;
+  transform: rotate(-45deg);
+  vertical-align: top;
+  width: 0.45em;
+  2em;
+}
+
+.chevron.right:before {
+  left: 0;
+  transform: rotate(45deg);
+  top:0.6em;
 }
 .right-side > .content-header > .breadcrumb {
   float: right;
